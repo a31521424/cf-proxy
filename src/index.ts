@@ -16,6 +16,8 @@ const getReferHost = (host: string) => {
 	switch (host) {
 		case 'cdnfile.sspai.com':
 			return 'https://sspai.com/';
+		case 'bcn.135editor.com':
+			return 'https://www.135editor.com';
 	}
 	return null;
 
